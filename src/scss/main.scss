@@ -1,0 +1,17 @@
+// Default variable overrides
+$primary: #b62fcd;    // primary라는 이름을 갖는 변수들이 #FDC000로 활용됨
+$container-max-widths: (
+  sm: 540px,
+  md: 704px,
+  lg: 924px,
+  xl: 1140px,
+  xxl: 1364px
+);
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";    // 경로를 상대경로로 바꿔줘야 함.
+// Required
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+ @import "../../node_modules/bootstrap/scss/bootstrap";  // .scss 확장자 생략
